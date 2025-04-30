@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@babel/helper-validator-identifier": "^7.27.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "id":1,
+            "title":"First Blog",
+            "author":"Yehor",
+            "date":"30/04/2025",
+            "article":{
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                "comments": [
+                    {
+                        "avatar": "https://placehold.co/400",
+                        "userName":"Tom",
+                        "date":"30/04/2025",
+                        "country": "Poland",
+                        "mainText":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas veritatis vitae autem. Porro, dicta provident?"
+                    }
+                ]
+            }
+        }
+    ]
+}
