@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/image/png/yourluxblog-logo.png" type="image/x-icon">
+    <title>YourLuxBlog</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/posts.css">
+    <link rel="stylesheet" href="./src/icomoon/style.css">
+    <link rel="stylesheet" href="./src/css/account.css">
+</head>
+<body>
+    <header class="header header--page">
+        <div class="container header__content">
+            <a class="logo__link" href="./index.html">YourLuxBlog</a>
+            <a class="header__account-link header__account-link--active" href="./account.html">My account</a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="./index.html">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="./posts.html">Posts</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="hero">
+                <div class="container hero__slogan-group">
+                    <h2 class="hero__title">Your personal space</h2>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <form class="post-form" id="post-form">
+            <label class="post-form__label" for="post_title">
+                Title:
+                <input class="post-form__input" type="text" id="post_title" name="title" required>
+            </label>
+            <label class="post-form__label" for="post_author">
+                Author:
+                <input class="post-form__input" type="text" id="post_author" name="author" required>
+            </label>
+            <label class="post-form__label" for="post_text">
+                Text:
+                <textarea class="post-form__textarea" id="post_text" name="text" required></textarea>
+            </label>
+            <label class="post-form__label" for="post_cover">
+                Post Cover ImageURL:
+                <input class="post-form__input" type="text" id="post_cover" name="cover">
+            </label>
+            <label class="post-form__label" for="post_image_url">
+                ImagesURL for post ( 2+ must be written through coma [ , ]):
+                <input class="post-form__input" type="text" id="post_image_url" name="url">
+            </label>
+            <button class="post-form__button--add" type="submit">Post</button>
+        </form>
+
+        <form class="post-form--edit" id="post-form--edit">
+            <label class="post-form__label" for="post_title--edit">
+                Title:
+                <input class="post-form__input" type="text" id="post_title--edit" name="title" required>
+            </label>
+            <label class="post-form__label" for="post_author--edit">
+                Author:
+                <input class="post-form__input" type="text" id="post_author--edit" name="author" required>
+            </label>
+            <label class="post-form__label" for="post_text--edit">
+                Text:
+                <textarea class="post-form__textarea" id="post_text--edit" name="text" required></textarea>
+            </label>
+            <label class="post-form__label" for="post_cover--edit">
+                Post Cover ImageURL:
+                <input class="post-form__input" type="text" id="post_cover--edit" name="cover">
+            </label>
+            <label class="post-form__label" for="post_image_url--edit">
+                ImagesURL for post ( 2+ must be written through coma [ , ]):
+                <input class="post-form__input" type="text" id="post_image_url--edit" name="url">
+            </label>
+            <button class="post-form__button--save" type="submit">Save</button>
+        </form>
+
+        
+        <div class="posts-gallery">
+            <div class="container posts-gallery__content" id="postsGallery--admin"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__top-group">
+                <nav class="navigation navigation--footer">
+                    <ul class="navigation__list navigation__list--footer">
+                        <li class="navigation__item navigation__item--footer">
+                            <a class="navigation__link navigation__link--footer" href="./index.html">Home</a>
+                        </li>
+                        <li class="navigation__item navigation__item--footer">
+                            <a class="navigation__link navigation__link--footer" href="./posts.html">Posts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-media">
+                    <ul class="social-media__list">
+                        <li class="social-media__item">
+                            <a class="social-media__link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                        </li>
+                        <li class="social-media__item">
+                            <a class="social-media__link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        </li>
+                        <li class="social-media__item">
+                            <a class="social-media__link" href="https://www.youtube.com/" target="_blank">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a class="footer__logo-link" href="./index.html">YourLuxBlog</a>
+            <p class="footer__signature">© 2025 Kantsyr Yehor</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+    <script type="module" src="./src/js/index.js"></script>
+</body>
+</html>
