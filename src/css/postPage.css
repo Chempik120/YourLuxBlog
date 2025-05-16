@@ -1,7 +1,4 @@
-.header--page {
-  background: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 100%, rgba(255, 255, 255, 0) 100%), url("https://res.cloudinary.com/dljmf7bk8/image/upload/f_auto,fl_lossy,c_limit,w_1920,dpr_auto,q_75/v1716989265/S24_0908_fine_36fec7579e.webp");
-  background-position: center;
-}
+
 .main-post-page {
   display: flex;
   flex-direction: column;
@@ -12,7 +9,7 @@
 .post-page__error-text {
   width: 300px;
   color: black;
-  background-color: rgb(220, 196, 60);
+  background-color: #ae6565;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -121,7 +118,7 @@
 }
 .post-comment-form__input:focus,
 .post-comment-form__textarea:focus {
-  outline: 2px solid gold;
+  outline: 2px solid #ae6565;
   background-color: #333;
 }
 .post-comment-form__textarea {
@@ -133,7 +130,7 @@
   padding: 14px 20px;
   font-size: 16px;
   font-weight: bold;
-  background: gold;
+  background: #ae6565;
   border: none;
   border-radius: 10px;
   color: #000;

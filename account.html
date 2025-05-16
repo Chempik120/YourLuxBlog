@@ -11,47 +11,35 @@
     <link rel="stylesheet" href="./src/css/account.css">
 </head>
 <body>
-    <header class="header header--page">
+
         <div class="container header__content">
             <a class="logo__link" href="./index.html">YourLuxBlog</a>
             <a class="header__account-link header__account-link--active" href="./account.html">My account</a>
             <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="./index.html">Home</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="./posts.html">Posts</a>
-                    </li>
-                </ul>
             </nav>
-            <section class="hero">
-                <div class="container hero__slogan-group">
-                    <h2 class="hero__title">Your personal space</h2>
-                </div>
-            </section>
+            
         </div>
-    </header>
+
     <main class="main">
         <form class="post-form" id="post-form">
             <label class="post-form__label" for="post_title">
-                Title:
+                Заголовок поста
                 <input class="post-form__input" type="text" id="post_title" name="title" required>
             </label>
             <label class="post-form__label" for="post_author">
-                Author:
+                Логін
                 <input class="post-form__input" type="text" id="post_author" name="author" required>
             </label>
             <label class="post-form__label" for="post_text">
-                Text:
+                Текст поста
                 <textarea class="post-form__textarea" id="post_text" name="text" required></textarea>
             </label>
             <label class="post-form__label" for="post_cover">
-                Post Cover ImageURL:
+                Прев'ю поста
                 <input class="post-form__input" type="text" id="post_cover" name="cover">
             </label>
             <label class="post-form__label" for="post_image_url">
-                ImagesURL for post ( 2+ must be written through coma [ , ]):
+                Додаткові зображення та посилання
                 <input class="post-form__input" type="text" id="post_image_url" name="url">
             </label>
             <button class="post-form__button--add" type="submit">Post</button>
@@ -80,25 +68,9 @@
             </label>
             <button class="post-form__button--save" type="submit">Save</button>
         </form>
-
-        
-        <div class="posts-gallery">
-            <div class="container posts-gallery__content" id="postsGallery--admin"></div>
-        </div>
     </main>
     <footer class="footer">
         <div class="container footer__content">
-            <div class="footer__top-group">
-                <nav class="navigation navigation--footer">
-                    <ul class="navigation__list navigation__list--footer">
-                        <li class="navigation__item navigation__item--footer">
-                            <a class="navigation__link navigation__link--footer" href="./index.html">Home</a>
-                        </li>
-                        <li class="navigation__item navigation__item--footer">
-                            <a class="navigation__link navigation__link--footer" href="./posts.html">Posts</a>
-                        </li>
-                    </ul>
-                </nav>
                 <div class="social-media">
                     <ul class="social-media__list">
                         <li class="social-media__item">
@@ -113,8 +85,6 @@
                     </ul>
                 </div>
             </div>
-            <a class="footer__logo-link" href="./index.html">YourLuxBlog</a>
-            <p class="footer__signature">© 2025 Kantsyr Yehor</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>

@@ -1,7 +1,4 @@
-.header--page {
-  background: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 100%, rgba(255, 255, 255, 0) 100%), url("https://images.pexels.com/photos/31846763/pexels-photo-31846763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  background-position: center;
-}
+
 .main-posts {
   display: flex;
   justify-content: center;
@@ -51,7 +48,7 @@
 }
 .search__input:focus {
   outline: none;
-  border-color: gold;
+  border-color: #ae6565;
   box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
 }
 /* Post Card */

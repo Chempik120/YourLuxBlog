@@ -1,5 +1,5 @@
 .header--page {
-  background: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 100%, rgba(255, 255, 255, 0) 100%), url("https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2019/products/Taycan-Interieur/pictures/b-P19_0572_a3_rgb.jpg/jcr:content/b-P19_0572_a3_rgb.jpg");
+
   background-position: center;
 }
 .post-form {
@@ -54,7 +54,7 @@
 }
 .post-form__input:focus,
 .post-form__textarea:focus {
-  outline: 2px solid gold;
+  outline: 2px solid #ae6565;
   background-color: #333;
 }
 .post-form__textarea {
@@ -65,7 +65,7 @@
   padding: 14px 20px;
   font-size: 16px;
   font-weight: bold;
-  background: gold;
+  background: #ae6565;
   border: none;
   border-radius: 10px;
   color: #000;
@@ -199,6 +199,6 @@
 }
 .post-card__btn-visit--admin:hover {
   color: white;
-  background-color: gold;
+  background-color: #ae6565;
   transform: scale(1.1);
 }
